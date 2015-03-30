@@ -1,7 +1,8 @@
 var SILLY = (function(module){
 
 	module.DoIt = function(resultObject){
-		resultObject.prepend(Date() + '<br/>');
+		window.location.href = "http://www.google.com";
+		// resultObject.prepend(Date() + '<br/>');
 	};
 
 	return module;
