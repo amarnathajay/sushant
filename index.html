@@ -13,7 +13,9 @@
 	<script type="text/javascript" src = "js/silly.js"></script>
 	<script type="text/javascript">
 		$('#silly').click(function() {
-			SILLY.DoIt($('#results'));
+			        navigator.app.loadUrl('http://www.google.com/', {openExternal: true});
+
+			// SILLY.DoIt($('#results'));
 		});
 		$('#clear').click(function() {
 			$('#results').html('');
